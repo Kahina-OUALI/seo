@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /img/
+
+Sitemap: https://kahina-ouali.github.io/seo/sitemap.xml
