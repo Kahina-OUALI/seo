@@ -122,3 +122,27 @@ footer{
     border-radius: 5px;
     margin-top: 10px;
 }
+
+form{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+form input[type="email"]{
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    flex: 1;
+}
+
+form input[type="submit"]{
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: background 0.5s, color 0.5s;
+    font-size: 1.2em;
+}

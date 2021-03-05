@@ -40,3 +40,82 @@ git commit -m "commentaire"
 git push origin gh-pages
 
 => mis à jour 1min max+ vider le cache du navigateur
+
+--------
+robots.txt
+
+User-agent: *
+Allow: /img/
+
+Sitemap: https://kahina-ouali.github.io/seo/sitemap.xml
+
+--------
+
+sitemap generator => https://www.xml-sitemaps.com/
+
+--------
+
+Pour suivre au quotidien l'activité le volume du trafic du site
+
+=> google Analytics
+=> pour pouvoir l'utiliser, il faut au préalableque votre site internet
+soit en ligne
+=> on ne peut pas l'expérimenter si ces en local
+=> une fois en ligne
+=> compte gmail => connécté => sur le damier en haut à droite
+=> liste de tous les produits => google Analytics
+
+=> google Analytics
+=> suivre l'activité de 100 sites internets sumultanément
+
+=>créer le nouveau compte
+=> une fois crée 
+=> ce bout de javascript => dans chaque page dans lesquels on veut un suivi 
+de l'activité de la page
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8DFB3ZSVNJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8DFB3ZSVNJ');
+</script>
+
+=> remettre en ligne la ou les pages html sur l'hébergeur 
+
+=> google Analytics => menu temps réel
+=> si on voit un chiffre apparaître => 1 => c'est bon le site est suivi désormais
+par google Analytics
+
+1.google Analytics
+2.google keywordplanner => evaluer les mots clés
+3.google webmastertool
+
+-------
+1.cd dossier-projet
+2.git init
+3.git add * 
+4.git commit -m "commentaire"
+5.git remove add origin https://....git
+6.git branch gh-pages
+7.git chekout gh-pages
+8.git push origin gh-pages
+
+// si on réalise une modification sur un des fichiers locaux (index.html etc)
+// Enregistrer
+
+git add * 
+git commit -m "commentaire sur la modif"
+git push origin gh-pages
+
+// créer un projet / mis en ligne / 
+// créer un compte google analytics / js / projet / fonctionnelle
+
+// dès qu'un internaute va venir regarder votre page => exécuter le js 
+(tracker => envoyer des informations sur l'utilisateur)
+
+// étant donné que l'on vient 
+
+// sur mon google analytics => j'ai ajouté un suivi
+
+
